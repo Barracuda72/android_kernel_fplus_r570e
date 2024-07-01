@@ -38,9 +38,15 @@ struct LCM_DRIVER *lcm_driver_list[] = {
 #if defined(ILI9881C_HDP_DSI_VDO_ILITEK_RT5081_EBBG)
 	&ili9881c_hdp_dsi_vdo_ilitek_rt5081_lcm_drv_ebbg,
 #endif
+   &nv3051f_hdplus_dsi_vdo_hq_lcm_drv,
+   &jd9366d_hdplus_dsi_vdo_dzx_lcm_drv,
+   &jd9366z_hdplus_dsi_vdo_dzx_lcm_drv, 
 };
 
 unsigned char lcm_name_list[][128] = {
+  "nv3051f_hdplus_dsi_vdo_hq",
+  "jd9366d_hdplus_dsi_vdo_dzx",
+  "jd9366z_hdplus_dsi_vdo_dzx",
 };
 
 #define LCM_COMPILE_ASSERT(condition) \
