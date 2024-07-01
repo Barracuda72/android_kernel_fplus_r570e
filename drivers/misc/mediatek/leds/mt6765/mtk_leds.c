@@ -887,8 +887,10 @@ int mt_mt65xx_led_set_cust(struct cust_mt65xx_led *cust, int level)
 #endif
 		return ((cust_set_brightness) (cust->data)) (level);
 
+#ifdef CONFIG_MTK_FLASHLIGHT_MT6370
 	case MT65XX_LED_MODE_FLASHLIGHT:
 		return mt6370_flashlight_strobe_node(level);
+#endif
 
 	case MT65XX_LED_MODE_NONE:
 	default:
