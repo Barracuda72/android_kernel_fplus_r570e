@@ -134,6 +134,14 @@
 #define CEREUS_S5K5E8YX_OFILM_SENSOR_ID 0x5e84
 #define CEREUS_S5K5E8YX_SUNNY_SENSOR_ID 0x5e82
 
+#define IMX214_SENSOR_ID                        0x0214
+#define IMX135_SENSOR_ID                        0x0135
+#define IMX214_SENSOR_OTP_ID                    0x0216
+#define OV5670MIPI_SENSOR_ID                    0x5670
+#define OV8858_SENSOR_ID                        0x8858
+#define S5K3M2_SENSOR_ID                        0x30D2
+#define S5K4H7YXSUB_SENSOR_ID                   0x487A
+
 
 /* CAMERA DRIVER NAME */
 #define CAMERA_HW_DEVNAME                       "kd_camera_hw"
