@@ -14,3 +14,4 @@ obj-y   +=  tpd_setting.o
 obj-$(CONFIG_TOUCHSCREEN_MTK_SOLOMON) += SOLOMON/
 obj-$(CONFIG_TOUCHSCREEN_MTK_FOCALTECH_TS) += focaltech_touch/
 obj-$(CONFIG_TOUCHSCREEN_GT9XX) += goodix917d/
+obj-$(CONFIG_TOUCHSCREEN_MTK_GT1X_V14) +=  GT1X_V14/
