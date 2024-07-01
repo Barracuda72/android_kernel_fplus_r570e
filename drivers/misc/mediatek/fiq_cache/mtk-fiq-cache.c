@@ -45,11 +45,11 @@ void mt_fiq_cache_flush_all(void)
 
 static int __init fiq_cache_init(void)
 {
-
+#if 0
 	mt_secure_call(MTK_SIP_KERNEL_CACHE_FLUSH_INIT,
 		(unsigned long)aee_rr_rec_fiq_cache_step_pa(),
 		0, 0, 0);
-
+#endif
 	return 0;
 }
 module_init(fiq_cache_init);
