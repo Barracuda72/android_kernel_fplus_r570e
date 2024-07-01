@@ -143,3 +143,13 @@ config MTK_BQ25890_SUPPORT
 	  It also supports BC1.2 function.
 	  It depends on config MTK_CHARGER.
 	  Say yes to enable BQ25890 charger driver.
+
+config HL7005ALL_CHARGER_SUPPORT
+	bool "Charger Driver for Halo HL7005 Charger IC"
+	default n
+	depends on MTK_SWCHR_SUPPORT
+	help
+	  Say Y to enable
+	  Halo HL7005 driver.
+	  It depends on config MTK_SMART_BATTERY
+	  and config MTK_SWCHR_SUPPORT.
