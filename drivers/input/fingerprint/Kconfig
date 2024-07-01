@@ -25,5 +25,18 @@ config GOODIX_FINGERPRINT
 	help
 	  Goodix Fingerprint chip GF316M/GF318M/GF3118M/GF518M/GF5118M/GF516M/GF816M/GF3208/GF3206/
 	  GF3266/GF3288/GF5206/GF5216/GF5208 TEE driver
+
+config NAVIGATION_FUNCTION
+  bool "Sunwave Fingerprint"
+  default y
+  help
+    Navigation function up f1 down f2 left f3 right f4
+ 
+config SUNWAVE_FINGERPRINT
+  bool "SUNWAVE Fingerprint"
+  default y
+  help
+    MICROARRAY fingerprint SUNWAVE's device.
 endif
+
 endmenu
