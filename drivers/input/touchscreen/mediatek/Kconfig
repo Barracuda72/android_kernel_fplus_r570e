@@ -41,6 +41,16 @@ config TOUCHSCREEN_MTK_SOLOMON
 	  To compile this dirver as a module, choose M here: the
 	  module will be called.
 
+#prize added by huarui, add cst3xx driver, 20190327-end
+config PRIZE_SMART_COVER_COMMON_NODE
+    bool "prize smart cover common node"
+    default n
+    help
+      Say Y here if you use smart cover common node.
+      If unsure, say N.
+      To compile this dirver as a module, choose M here: the
+      module will be called.
+
 config TOUCHSCREEN_MTK_GT1X_V14
 	bool "GT1X_V14 for Mediatek package"
 	default n
